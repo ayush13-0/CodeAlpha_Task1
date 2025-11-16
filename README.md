@@ -1,6 +1,6 @@
 # CodeAlpha_Task1 Hybrid Web Scraping Project
 
-🧾 Hybrid Data Extraction & Analytics
+# 🧾 Hybrid Data Extraction & Analytics
 Comparative Product Insights from E-Commerce & Food Domains
 
 (BooksToScrape Web Scraping + OpenFoodFacts API)
