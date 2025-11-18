@@ -69,3 +69,6 @@ Ayush
 Data Science & Analytics | Machine Learning | Web Scraping & APIs
 - 🔗 GitHub: https://github.com/ayush13-0
 - 🔗 LinkedIn: https://www.linkedin.com/in/ayush130
+
+📜 License
+- This project is licensed under the **MIT License**.
