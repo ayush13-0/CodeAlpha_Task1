@@ -1,74 +1,85 @@
-# 🧾 Hybrid Data Extraction & Analytics Projects
-Comparative Product Insights from E-Commerce & Food Domains
+<p align="center">
+  <img src="https://img.shields.io/badge/Web%20Scraping-BeautifulSoup-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/API-OpenFoodFacts-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data%20Extraction-Hybrid%20Pipeline-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/EDA-Exploratory%20Data%20Analysis-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Visualization-Matplotlib%20%7C%20Seaborn-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge" />
+</p>
 
-(BooksToScrape Web Scraping + OpenFoodFacts API)
+# 🚀 Project Overview
+This project demonstrates a hybrid data extraction and analytics pipeline using two fundamentally different data sources:
+- 📘 BooksToScrape — Web scraping (E-Commerce product data)
+- 🍎 OpenFoodFacts API — REST API-based extraction (Food & Nutrition data)
 
-🚀 Project Overview
+The primary goal is to extract, clean, analyze, and visualize multi-domain datasets, showcasing scalable data engineering, exploratory data analysis (EDA), and cross-domain insight generation using Python.
 
-This project performs hybrid data extraction, cleaning, and analytics using two completely different data sources:
-- BooksToScrape → Web scraping (E-Commerce data)
-- OpenFoodFacts API → API-based product extraction (Food & Nutrition data)
+# 🎯 Project Objectives
+- Scrape structured book product data (title, price, rating, availability)
+- Fetch food & nutrition data using OpenFoodFacts REST API
+- Clean, preprocess, and normalize heterogeneous datasets
+- Perform exploratory data analysis (EDA) and visual analytic
+- Build a reproducible and modular data pipeline
 
-The goal is to compare data patterns, visualize insights, and demonstrate scalable data engineering techniques using Python.
+# 🧰 Tech Stack & Libraries
+- Programming: Python
+- Web Scraping: Requests, BeautifulSoup
+- API Handling: REST API, JSON
+- Data Processing: Pandas, NumPy
+- Visualization: Matplotlib, Seaborn, WordCloud
+- Text & NLP Utilities: Regex, NLTK
+- ML Utilities: Scikit-Learn (for analytics readiness)
 
-🎯 Objectives:
-- Scrape structured book product data (title, price, rating, availability, etc.)
-- Fetch food product data via OpenFoodFacts REST API
-- Clean, preprocess, and merge multi-domain datasets
-- Perform exploratory data analysis (EDA) and generate visual insights
-- Build a reproducible and well-organized data pipeline
+# 🧩 Workflow Summary
+**1️⃣ Data Extraction**
+# 📘 BooksToScrape (Web Scraping)
+- Extract book title, price, availability, rating
+- Parse HTML pages using BeautifulSoup
+- Store results in structured tabular format
 
-🧰 Tech Stack & Libraries:
-- Python
-- Requests
-- BeautifulSoup
-- Pandas
-- Matplotlib
-- Seaborn
-- JSON
-- Regex
+# 🍎 OpenFoodFacts API (JSON API)
+- Query packaged food products
+**Extract nutrition attributes:**
+- Energy
+- Fat
+- Sugar
+- Country of origin
+- Convert JSON responses into clean DataFrames
 
-🧩 Workflow Summary
-1️⃣ Data Extraction
-📘 BooksToScrape (Web Scraping)
-- Fetch book titles, price, stock status, rating
-- Create structured tabular dataset
+# 🧹 2️⃣ Data Cleaning & Preparation
+- Remove null values and duplicates
+- Convert string fields to numeric formats
+- Normalize prices and nutrition metrics
+- Filter products for meaningful analytical comparisons
 
-🍎 OpenFoodFacts API (JSON API)
-- Query packaged food items
-- Extract nutrition fields: energy, fat, sugar, etc.
-- Standardize and load into DataFrame
+# 📊 3️⃣ Visualizations & Analytics
+**📘 Books Data Analysis**
+- Book price distribution
+- Boxplots to identify pricing outliers
 
-🧹 2️⃣ Data Cleaning & Preparation
-- Remove nulls, duplicates
-- Convert string values to numeric
-- Normalize price, nutrition fields
-- Filter products for meaningful comparisons
+**🍏 Food Data Analysis**
+- Energy vs Sugar correlation scatter plot
+- Top contributing countries by product count
+- Nutrition-based comparative insights
 
-📊 3️⃣ Visualizations & Analytics
-📘 Books Data
-- Price distribution
-- Boxplot for average book price & outliers
+# 🔍 4️⃣ Key Insights
+- Book prices show moderate distribution with identifiable outliers
+- Certain food categories reveal strong correlation between sugar and energy
+- OpenFoodFacts data highlights significant country-wise contribution differences
+- Demonstrates the power of hybrid data integration across domains
 
-🍏 Food Data
-- Energy vs sugar scatter plot
-- Top 10 countries by product count
-
-🔍 4️⃣ Key Insights: 
-- Books show a moderate price distribution with visible outliers
-- Certain food categories show strong correlation between sugar & energy
-- Countries differ widely in OpenFoodFacts product contributions
-- Hybrid data integration demonstrates powerful cross-domain analytics
-
-🗂 Project Structure
+# 🗂 Project Structure
+<pre>
 ├── Hybrid_Data_Extraction_Analytics_Project.ipynb
-├── README.md
+├── README.md </pre>
 
-👨‍💻 Developed By
-Ayush
-Data Science & Analytics | Machine Learning | Web Scraping & APIs
+# 👨‍💻 Developed By
+# Ayush
+- Data Science & Analytics | Machine Learning | Web Scraping & APIs
 - 🔗 GitHub: https://github.com/ayush13-0
 - 🔗 LinkedIn: https://www.linkedin.com/in/ayush130
 
 📜 License
-- This project is licensed under the **MIT License**.
+
+This project is licensed under the MIT License.
